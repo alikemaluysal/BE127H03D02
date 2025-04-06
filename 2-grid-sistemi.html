@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Sistemi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .kirmizi{
+            background-color: red;
+            height: 100px;
+        }
+
+        .mavi{
+            background-color: blue;
+            height: 100px;
+        }
+
+        .yesil{
+            background-color: green;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- container -> row -> col
+     col- 12 birimi paylaştırabilirim
+     col-4 col-8
+     col-6 col-6
+     col-3 col-3 col-3 col-3
+    -->
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col"><div class="kirmizi"></div></div>
+            <div class="col"><div class="kirmizi"></div></div>
+            <div class="col"><div class="kirmizi"></div></div>
+            <div class="col"><div class="kirmizi"></div></div>
+            <div class="col"><div class="kirmizi"></div></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col"><div class="mavi"></div></div>
+            <div class="col"><div class="mavi"></div></div>
+            <div class="col"><div class="mavi"></div></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-4"><div class="mavi"></div></div>
+            <div class="col-8"><div class="yesil"></div></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-2"><div class="mavi"></div></div>
+            <div class="col-2"><div class="mavi"></div></div>
+            <div class="col-4"><div class="yesil"></div></div>
+            <div class="col-4"><div class="yesil"></div></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-5"><div class="mavi"></div></div>
+            <div class="col-4"><div class="kirmizi"></div></div>
+            <div class="col-3"><div class="yesil"></div></div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-10"><div class="mavi"></div></div>
+            <div class="col-2"><div class="kirmizi"></div></div>
+        </div>
+
+    </div>
+
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
